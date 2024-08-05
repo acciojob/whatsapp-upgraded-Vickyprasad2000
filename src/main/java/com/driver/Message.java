@@ -7,13 +7,11 @@ public class Message {
     private String content;
     private Date timestamp;
 
-    public Message(int id, String content, Date timestamp) {
+    public Message(int id, String content) {
         this.id = id;
         this.content = content;
-        this.timestamp = timestamp;
     }
 
-    // Getters and Setters
     public int getId() {
         return id;
     }

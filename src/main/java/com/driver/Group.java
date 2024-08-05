@@ -9,7 +9,7 @@ public class Group {
         this.numberOfParticipants = numberOfParticipants;
     }
 
-    // Getters and Setters
+
     public String getName() {
         return name;
     }
